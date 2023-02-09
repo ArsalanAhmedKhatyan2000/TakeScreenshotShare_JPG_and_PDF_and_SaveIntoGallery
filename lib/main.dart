@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         .captureFromWidget(imageContainer(context));
                     await screenToPdf(image);
                   },
-                  child: const Text("Share PFD")),
+                  child: const Text("Share PDF")),
               ElevatedButton(
                   onPressed: () async {
                     final image = await screenshotController.capture();
